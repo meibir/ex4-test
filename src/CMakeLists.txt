@@ -16,6 +16,6 @@ set(SOURCE_FILES main.cpp Point.cpp Point.h Node.cpp Node.h Matrix.cpp
 
 
 add_library(core ${SOURCE_FILES} )
-add_executable(ex1 ${SOURCE_FILES} main.cpp)
+add_executable(ex1 ${SOURCE_FILES} main.cpp )
 
 target_link_libraries(ex1 ${Boost_LIBRARIES})

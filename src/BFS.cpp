@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include "BFS.h"
-//do BFS algorithm
+//do the BFS algorithm
 std::list<Node*> BFS::funcBFS(Node* start, Node* end) {
     std::list<Node*> path;
     Node* p;
