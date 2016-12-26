@@ -10,7 +10,7 @@ Driver::Driver(Point location, int id, int age, int yearsOfExperience,
     this->averageSatisfaction = averageSatisfaction;
 }
 
-//getters and setters
+//getters and  the setters
 int Driver::getYearsOfExperience(){
     return this->yearsOfExperience;
 }
